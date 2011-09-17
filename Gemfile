@@ -26,5 +26,6 @@ gem 'jquery-rails'
 
 group :test do
   # Pretty printed test output
+  gem 'webrat'
   gem 'turn', :require => false
 end
