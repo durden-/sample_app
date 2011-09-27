@@ -9,9 +9,8 @@ group :production, :staging do
   gem "pg"
 end
 
-group :development, :test do
+group :development do
   gem 'pg'
-  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
@@ -28,6 +27,8 @@ gem 'jquery-rails'
 
 group :test do
   # Pretty printed test output
+  gem 'sqlite3'
   gem 'webrat'
   gem 'turn', :require => false
+  gem 'factory_girl_rails', '> 1.0'
 end
