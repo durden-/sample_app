@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
-
 gem 'execjs'
 gem 'therubyracer'
+gem 'gravatar_image_tag'
 
 group :production, :staging do
   gem "pg"
