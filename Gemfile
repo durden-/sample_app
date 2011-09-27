@@ -13,7 +13,7 @@ group :development, :test do
   gem 'pg'
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'annotate', :git => "git://github.com/ctran/annotate_models.git"
+  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
 # Gems used only for assets and not required
