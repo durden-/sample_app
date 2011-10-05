@@ -11,3 +11,4 @@ doc/app
 .project
 .DS_Store
 .sass-cache/
+tags
